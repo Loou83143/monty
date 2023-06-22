@@ -1,5 +1,6 @@
 #include "monty.h"
-bus_t bus = {NULL, NULL, NULL, 0};
+#define _POSIX_C_SOURCE 200809L
+
 /**
 * main - monty code interpreter
 * @argc: number of arguments
